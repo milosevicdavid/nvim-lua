@@ -162,6 +162,8 @@ return require('packer').startup(function(use)
   -- Pairs
   use 'jiangmiao/auto-pairs'
 
+  use 'pechorin/any-jump.vim'
+
   -- Leap
   use 'ggandor/leap.nvim'
 
