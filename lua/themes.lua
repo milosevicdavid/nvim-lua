@@ -4,7 +4,7 @@
 
 -- -- Material
 --  vim.g.material_style = 'oceanic'
---  vim.cmd [[colorscheme material]]
+ vim.cmd [[colorscheme material-darker]]
 
 
 --Pencil
@@ -20,7 +20,7 @@
 -- vim.cmd [[colorscheme tender]]
 
 --Badwolf
-vim.cmd [[ colorscheme badwolf ]]
+-- vim.cmd [[ colorscheme badwolf ]]
 
 --Papercolor
 -- vim.cmd [[ colorscheme PaperColor ]]

@@ -40,6 +40,16 @@ nnoremap("P", '"0p"' )
 nnoremap("<leader>ws", ":split<CR>")
 nnoremap("<leader>vs", ":vsplit<CR>")
 
+nnoremap("<C-l>", "<C-w>l")
+nnoremap("<C-h>", "<C-w>h")
+nnoremap("<C-k>", "<C-w>k")
+nnoremap("<C-j>", "<C-w>j")
+
+nnoremap("<C-right>", ":vertical resize -5<CR>")
+nnoremap("<C-left>", ":vertical resize +5<CR>")
+nnoremap("<C-up>", ":horizontal resize -5<CR>")
+nnoremap("<C-down>", ":horizontal resize +5<CR>")
+
 -- Populate substitution
 nnoremap("<leader>s", ":s//g<Left><Left>")
 nnoremap("<leader>S", ":%s//g<Left><Left>")
@@ -102,6 +112,7 @@ nnoremap("<leader><A-d>", "<Cmd>lua vim.diagnostic.setqflist()<CR>")
 nnoremap("<leader>ff", "<Cmd>Telescope find_files<CR>")
 nnoremap("<leader>fhf","<Cmd>Telescope find_files hidden=true<CR>")
 nnoremap("<leader>fb", "<Cmd>Telescope buffers<CR>")
+nnoremap("<leader>fg", "<Cmd>Telescope live_grep<CR>")
 nnoremap("<leader>fg", "<Cmd>Telescope live_grep<CR>")
 
 -- File explorer
